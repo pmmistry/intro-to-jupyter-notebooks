@@ -1,4 +1,4 @@
-# Intro to Jupyter Notebooks 
+# Intro to Jupyter Notebooks :tada:
 [Jupyter Notebooks](https://jupyter.org/) are an open-source web application that allows you to create and share documents that contain live code, equations, visualizations and explanatory text.
 
 In this workshop we will use [IBM Watson Studio](https://dataplatform.cloud.ibm.com/docs/content/wsj/getting-started/overview-ws.html) to run various notebooks. For this you will need an IBM Cloud account. The following steps will show you how sign up and get started. 
