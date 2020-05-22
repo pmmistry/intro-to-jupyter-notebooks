@@ -51,7 +51,7 @@ The data can now be explored with PixieDust:
 
 * Then click on the below button to create one of the charts in the list.
 
-![notebook](images/display.png)
+![notebook](https://github.com/IBMDeveloperUK/pixiedust-spark-wml-workshop/blob/master/images/display.png)
 
 * Drag and drop the variables you want to display into the `Keys` and `Values` fields. Select the aggregation from the drop-down menu and click `OK`.
 
