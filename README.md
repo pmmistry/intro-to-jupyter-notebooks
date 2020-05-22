@@ -37,4 +37,4 @@ There are three labs in this workshop where you will learn :
 ### Labs 
 * [Lab 1 : Intro to Pandas](lab_1.md) 
 * [Lab 2 : Intro to PixieDust](lab_2.md)
-* [Lab 3 : Intro to Predictive Modeling with Watson Machine](lab_2.md) 
+* [Lab 3 : Intro to Predictive Modeling with Watson Machine](lab_3.md) 

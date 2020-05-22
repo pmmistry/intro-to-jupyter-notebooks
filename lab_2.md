@@ -54,6 +54,7 @@ The data can now be explored with PixieDust:
 ![notebook](https://github.com/IBMDeveloperUK/pixiedust-spark-wml-workshop/blob/master/images/display.png)
 
 * Drag and drop the variables you want to display into the `Keys` and `Values` fields. Select the aggregation from the drop-down menu and click `OK`.
+![notebook](https://github.com/IBM/analyze-customer-data-spark-pixiedust/blob/master/doc/source/images/chart_histogram.png)
 
 * From the menu on the right of the chart you can select which renderer you want to use, where each one of them visualises the data in a different way. Other options are clustering by a variable, the size and orientation of the chart and the display of a legend. 
 
