@@ -19,9 +19,9 @@ This list is far from complete. See the pandas [documentation](https://pandas.py
 
 ## Workshop 
 
-### Step 1 - [Create a new project in Watson Studio](https://github.com/pmmistry/intro-to-jupyter-notebooks#create-a-new-project)
+#### Step 1 - [Create a new project in Watson Studio](https://github.com/pmmistry/intro-to-jupyter-notebooks#create-a-new-project)
 
-### Step 2 - Load and Run a Notebook
+#### Step 2 - Load and Run a Notebook
 -  Add a new notebook. Click `Add to project` and choose `Notebook`:
 
 ![](https://github.com/IBMDeveloperUK/pandas-workshop/blob/master/images/addnotebook.png)
