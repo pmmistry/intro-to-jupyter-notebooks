@@ -25,4 +25,16 @@ There are three labs in this workshop where you will learn :
 
 ![](https://github.com/IBMDeveloperUK/jupyter-notebooks-101/blob/master/images/launch.png)
 
+## Working with Watson Studio 
 
+### Create a new Project
+- You should now be in Watson Studio.
+- Create a new project by clicking on `Get Started` and `New Project`, or `Create Project`
+- Give your Project a name.
+- Select an Object Storage from the drop-down menu or create a new one for free. This is used to store the notebooks and data. **Do not forget to click refresh when returning to the Project page.**
+- Click `Create`.  
+
+### Labs 
+* [Lab 1 : Intro to Pandas](lab_1.md) 
+* [Lab 2 : Intro to PixieDust](lab_2.md)
+* [Lab 3 : Intro to Predictive Modeling with Watson Machine](lab_2.md) 
