@@ -28,7 +28,10 @@ This list is far from complete. See the pandas [documentation](https://pandas.py
 
 - Choose new notebook `From URL`. Give your notebook a name and copy the URL : `https://github.com/pmmistry/intro-to-jupyter-notebooks/blob/master/notebooks/into-to-pandas.ipynb`
 
+![add notebook](https://github.com/IBM/pattern-utils/raw/master/watson-studio/notebook-create-url-spark-py36.png)
+
 - Select the default runtime and click `Create Notebook`. 
+
 -  The notebook will load. 
 You are now ready to follow along with the workshop in the notebook!
 
