@@ -181,7 +181,7 @@ Click on the `Test` tab to test your model by filling in the input schema
 ![wml5](./images/wml5.png)
 
 
-### Congrats! You just learned how to deploy your model to Watson Machine Learning 
+### Congrats! You just learned how to deploy your model to Watson Machine Learning :tada::tada::tada:
 
 If you are interested in building a Node.js App with this model check out this [tutorial](https://github.com/IBM/predictive-model-on-watson-ml#3-the-client-side)
 
