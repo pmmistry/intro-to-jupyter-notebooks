@@ -160,5 +160,36 @@ Go back to your assets tab and you should see your model `Heart Failure Predicti
 
 ![wml1](./images/wml1.png)
 
+#### 3.2 Deployment Overview  
+Once you click on your model you should see the overview of your model 
+
+![wml2](./images/wml2.png)
+
+Click on the `Deployments` tab and click on your model . You should now see your model deployed successfully. Click on your model and you should see how you can implement your model 
+
+![wml3](./images/wml3.png)
+
+#### 3.3 Implementing and Testing your model 
+Once you click your model from the `Deployments` tab you should see `Overview` , `Implementation` and `Test`
+
+Click on `Implementation` tab to see how you can implement your model using cUrl, Java, Javascript , Python and Scala 
+
+![wml4](./images/wml4.png)
+
+Click on the `Test` tab to test your model by filling in the input schema 
+
+![wml5](./images/wml5.png)
+
+
+### Congrats! You just learned how to deploy your model to Watson Machine Learning 
+
+If you are interested in building a Node.js App with this model check out this [tutorial](https://github.com/IBM/predictive-model-on-watson-ml#3-the-client-side)
+
+
+### References 
+ * [Create and deploy a scoring model to predict heartrate failure](https://developer.ibm.com/patterns/create-and-deploy-a-scoring-model-to-predict-heartrate-failure/)
+
+
+
 
 
