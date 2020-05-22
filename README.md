@@ -4,9 +4,9 @@
 In this workshop we will use [IBM Watson Studio](https://dataplatform.cloud.ibm.com/docs/content/wsj/getting-started/overview-ws.html) to run various notebooks. For this you will need an IBM Cloud account. The following steps will show you how sign up and get started. 
 
 There are three labs in this workshop where you will learn : 
-* Lab 1 : Intro to Pandas 
-* Lab 2 : Intro to PixieDust
-* Lab 3 : Intro to Predictive Modeling with Watson Machine Learning 
+* Lab 1 : Intro to [Pandas](https://pandas.pydata.org/docs/)
+* Lab 2 : Intro to [PixieDust](https://github.com/pixiedust/pixiedust)
+* Lab 3 : Intro to Predictive Modeling with [Watson Machine Learning](https://www.ibm.com/cloud/machine-learning) 
 
 ## Before You Get Started 
 
