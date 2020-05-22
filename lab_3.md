@@ -26,7 +26,7 @@ When the reader has completed this Code Pattern, they will understand how to:
 
 ### Steps
 
-#### Step 1 : Setup project and data in Watson Studio 
+### Step 1 : Setup project and data in Watson Studio 
 To complete this code pattern we'll need to do a few setup steps before creating our model. In Watson Studio we need to: create a project, add our patient data (which our model will be based on), upload our notebook, and provision a Watson Machine Learning service.
 
 #### 1.1. Create a project in Watson Studio
@@ -97,11 +97,11 @@ The notebook we'll be using can be viewed in [`notebooks/predictiveModel.ipynb`]
   ![notebook asset](https://github.com/IBM/predictive-model-on-watson-ml/blob/master/doc/source/images/notebook-asset.png)
 
 
-#### Step 2 : Setup project and data in Watson Studio 
+### Step 2 : Setup project and data in Watson Studio 
 
 Now that we're in our Notebook editor, we can start to create our predictive model by stepping through the notebook.
 
-![notebook viewer](doc/source/images/notebook-viewer.png)
+![notebook viewer](https://github.com/IBM/predictive-model-on-watson-ml/blob/master/doc/source/images/notebook-viewer.png)
 
 #### 2.1 Start stepping through the notebook
 
@@ -109,24 +109,24 @@ Now that we're in our Notebook editor, we can start to create our predictive mod
 
 * When you reach the cell entitled *2. Load and explore data* pause and follow the instructions in that cell. On the very next cell we need to add our data. Follow the numbered steps in the image below.
 
-  ![stop on this cell](doc/source/images/insert-point.png)
+  ![stop on this cell](https://github.com/IBM/predictive-model-on-watson-ml/blob/master/doc/source/images/insert-point.png)
 
   * Click on the `Data` icon. [1]
   * Select the `Insert to code` option under the file **patientdataV6.csv**. [2]
   * Choose the `Insert SparkSession Data Frame` option. [3]
 
-  ![add spark dataframe](doc/source/images/insert-spark-dataframe.png)
+  ![add spark dataframe](https://github.com/IBM/predictive-model-on-watson-ml/blob/master/doc/source/images/insert-spark-dataframe.png)
 
 * The above step will have inserted a chunk of code into your notebook. We need to make two changes:
 
   * Rename the `df_data_1` variable to `df_data`. [1]
   * Re-add the line `.option('inferSchema','True')\` to the `spark.read()` call. [2]
 
-  ![modify automatic code](doc/source/images/spark-data-frame.png)
+  ![modify automatic code](https://github.com/IBM/predictive-model-on-watson-ml/blob/master/doc/source/images/spark-data-frame.png)
 
 * Keep stepping through the code, pausing on each step to read the code and see the output for the opertion we're performing. At the end of *Step 4* we'll have used the [Random Forest Classifier from PySpark](https://spark.apache.org/docs/2.1.0/ml-classification-regression.html#random-forest-classifier) to create a model **LOCALLY**.
 
-   ![model notebook eval](doc/source/images/model-notebook-eval.png)
+   ![model notebook eval](https://github.com/IBM/predictive-model-on-watson-ml/blob/master/doc/source/images/model-notebook-eval.png)
 
 #### 2.2 Save the model
 
@@ -136,26 +136,29 @@ The gist of the next two steps is to use the [Watson Machine Learning Python cli
 
 * Update the `wml_credentials` variable below. Copy and paste the entire credential dictionary, which can be found on the _Service Credentials_ tab of the Watson Machine Learning service instance created on the IBM Cloud.
 
-   ![credentials-in-nb](doc/source/images/credentials-in-nb.png)
+   ![credentials-in-nb](https://github.com/IBM/predictive-model-on-watson-ml/blob/master/doc/source/images/credentials-in-nb.png)
 
 * Keep stepping through the code, pausing on each step to read the code and see the output for the opertion we're performing. At the end of *Step 5* we'll have used the Watson Machine Learning service to persist our predictive model! :tada:
 
-   ![created-saved-model](doc/source/images/created-saved-model.png)
+   ![created-saved-model](https://github.com/IBM/predictive-model-on-watson-ml/blob/master/doc/source/images/created-saved-model.png)
 
 #### 2.3 Deploy the model
 
 * Now let's run *Step 6* of the notebook. Deploy our model so we can have an endpoint to score data against.
 
-  ![score-url-in-nb](doc/source/images/score-url-in-nb.png)
+  ![score-url-in-nb](https://github.com/IBM/predictive-model-on-watson-ml/blob/master/doc/source/images/score-url-in-nb.png)
 
 Now that we have an API, let's create a client side interface that a typical user would interact with.
 
-<!-- this only works if we associate the service with the project, make this optional
 
-* **TIP:** Once successfully imported, the notebook should appear in the `Models` section of the `Assets` tab. It will likely be named `Heart Failure Prediction Model`.
+### Step 3 : Working With Deployed Model 
 
-   ![model asset](doc/source/images/model-asset.png) -->
+Once the model is deployed you may be wondering how you can test and work with the model . 
 
+#### 3.1 Go to Deployed Model 
+Go back to your assets tab and you should see your model `Heart Failure Prediction Model` under Model asset 
+
+![wml1](./images/wml1.png)
 
 
 
