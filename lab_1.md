@@ -34,5 +34,5 @@ You are now ready to follow along with the workshop in the notebook!
 
 ## References
 *  [Python for Data Science Course](https://cognitiveclass.ai/courses/python-for-data-science) 
-*  [More Pandas tutorials](https://developer.ibm.com/technologies/analytics/tutorials/data-analysis-in-python-using-pandas)
+*  [Data Analysis in  Python using Pandas](https://developer.ibm.com/technologies/analytics/tutorials/data-analysis-in-python-using-pandas)
 *  [IBM Developer](https://developer.ibm.com)
