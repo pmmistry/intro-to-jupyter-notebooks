@@ -84,9 +84,9 @@ The notebook we'll be using can be viewed in [`notebooks/predictiveModel.ipynb`]
 
 * From the new project `Overview` panel, click `+ Add to project` on the top right and choose the `Notebook` asset type. Fill in the following information:
 
-  * Select the `From URL` tab. [1]
-  * Enter a `Name` for the notebook and optionally a description. [2]
-  * Under `Notebook URL` provide the following url: [https://github.com/pmmistry/intro-to-jupyter-notebooks/blob/master/notebooks/intro-to-predictive-modeling.ipynb]([https://github.com/pmmistry/intro-to-jupyter-notebooks/blob/master/notebooks/intro-to-predictive-modeling.ipynb])[3]
+  * Select the `From URL` tab. =
+  * Enter a `Name` for the notebook and optionally a description.
+  * Under `Notebook URL` provide the following url: `https://github.com/pmmistry/intro-to-jupyter-notebooks/blob/master/notebooks/intro-to-predictive-modeling.ipynb`
 
   * **Important** For `Runtime` select the `Default Spark 2.3 & Python 3.6` option. [4]
 
